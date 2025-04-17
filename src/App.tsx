@@ -1,19 +1,17 @@
-
-import Message from './Message';
-import OrderList from './components/OrderList';
-import './App.css'
+import Header from "./components/Header";
+// Compare this snippet from src/components/MenuItems.tsx:
+import MenuItems from "./components/MenuItems";
+import "./App.css";
 
 function App() {
-  
-
   return (
     <>
       <div>
-        <Message/>
-        <OrderList/>
-              </div>
+        <Header />
+        <MenuItems />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
