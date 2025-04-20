@@ -2,14 +2,14 @@ import Header from "./components/Header";
 // Compare this snippet from src/components/MenuItems.tsx:
 import MenuItems from "./components/MenuItems";
 import "./App.css";
+import TodoList from "./components/Todos";
 
 function App() {
   return (
     <>
-      <div>
-        <Header />
-        <MenuItems />
-      </div>
+      <Header />
+      <MenuItems />
+      <TodoList />
     </>
   );
 }
